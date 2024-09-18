@@ -13,8 +13,7 @@ This is a simple Todo List project. The project is designed to be run in a local
 ## Features
 
 - Add, edit, and remove tasks.
-- Mark tasks as completed.
-- Filter tasks by status.
+
 
 ## Technologies Used
 
@@ -25,7 +24,3 @@ This is a simple Todo List project. The project is designed to be run in a local
 ## Requirements
 
 - Visual Studio Code with Live Server extension installed.
-
-## License
-
-This project is licensed under the MIT License.
