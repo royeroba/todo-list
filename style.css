@@ -1,0 +1,82 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  min-width: 500px;
+  gap: 12px;
+  padding: 10px;
+  margin: 10px;
+}
+
+textarea {
+  flex: 1;
+  border-radius: 5px;
+  max-height: 20px;
+  padding: 16px;
+  border: 1px solid rgba(187, 181, 195, 0.909);
+}
+
+.send_button {
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  padding-left: 26px;
+  padding-right: 26px;
+  border: 1px solid rgba(187, 181, 195, 0.909);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  min-width: 600px;
+}
+
+li {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  min-width: 200px;
+  min-height: 50px;
+  max-width: max-content;
+  border: 1px solid rgba(187, 181, 195, 0.909);
+  border-radius: 5px;
+  display: flex;
+  min-width: 300px;
+  align-items: center;
+}
+
+li > button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  max-height: 40px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  border: 1px solid rgba(187, 181, 195, 0.909);
+}
+
+li > button:hover {
+  background-color: rgba(187, 181, 195, 0.909);
+}
+
+.editButton {
+  right: 40px;
+}
